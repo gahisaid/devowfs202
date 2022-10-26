@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Document</title>
+<style>
+
+.container
+{
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border : 2px solid #ff5900;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+ 
+  
+  align-content: center;
+  justify-content:flex-start;
+}
+
+.elmeent
+{
+    
+    border: 2px dached  #32a232e4;
+    padding: 20px;
+    height: 30px;
+    background-color: beige;
+    
+   text-align: center;
+}
+
+.elmeent:hover
+{
+    
+    border: 2px dached  #a2a232e4;
+    padding: 20px;
+    height: 30px;
+    background-color: rgb(64, 240, 234);
+ 
+  
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+ul
+{
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    margin-left: 15%;
+    width: 75%;
+    justify-content: center;
+    align-items: flex-end;
+    margin-right: 15%;
+}
+
+li
+{
+    list-style-type: none;
+    flex-grow: 1;
+}
+@media screen and (max-width :400px)
+{
+
+body
+{
+    background-color: aqua;
+}
+.container
+{
+    width: 75%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border : 2px solid #ff5900;
+    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+ 
+  align-content: center;
+  justify-content:flex-start;
+}
+h2
+{
+    display: none;
+}
+
+}
+
+@media print {
+
+    *:not(p)
+    {
+        display: none;
+    }
+}
+</style>
+
+</head>
+<body>
+    
+    <div class="container">
+
+        <div class="elmeent">
+         <a href=""> Element 1</a> 
+        </div>
+        <div class="elmeent">
+            <a href=""> Element 1</a>
+        </div>
+        <div class="elmeent">
+           <a href=""> Element 1</a>
+        </div>
+        <div class="elmeent">
+            <a href=""> Element 1</a>
+        </div>
+
+
+    </div>
+    <div>
+      <p style="display: none">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Hic facilis illo laboriosam aspernatur iure unde soluta dignissimos repellat vitae exercitationem necessitatibus, atque labore 
+        asperiores dolor accusamus repudiandae optio possimus consequuntur!</p>  
+
+        <h2>Test Test</h2>
+
+        <ul>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+
+        </ul>
+
+        <ul>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+
+        </ul>
+
+        <ul>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+            <li>lien1</li>
+
+        </ul>
+        <p>klsdjfkjdkfjkdf</p>
+        <h1>kjkfjdkfjkdjfk</h1>
+    </div>
+</body>
+</html>
